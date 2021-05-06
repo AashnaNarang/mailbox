@@ -1,4 +1,4 @@
-Class Message < ActiveRecord::Base
+class Message < ActiveRecord::Base
   belongs_to :conversations
   belongs_to :user
 
